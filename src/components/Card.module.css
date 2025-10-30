@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+  gap: 2rem;
+}
+
+.textContent {
+  flex: 1;
+}
+
+.textContent h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #272221;
+  margin-block-end: 1rem;
+}
+
+.textContent p {
+  color: #403937;
+  margin-block-end: 2rem;
+  line-height: 1.5;
+}
+
+.benefits {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits li {
+  margin-block-end: 0.5rem;
+  font-size: 1rem;
+}
+
+.imageContent {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.imageContent img {
+  inline-size: 80%;
+  max-inline-size: 400px;
+  object-fit: contain;
+}

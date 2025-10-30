@@ -19,6 +19,7 @@
 .header img {
   block-size: var(--icon-size);
   inline-size: auto;
+  cursor: pointer;
 }
 
 .nav {
@@ -37,11 +38,13 @@
   padding: 0.5rem;
   border-radius: 6px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .location img {
   block-size: 1rem;
   inline-size: auto;
+  
 }
 
 .cart {
@@ -52,6 +55,7 @@
   color: var(--yellow);
   padding: 0.5rem;
   border-radius: 6px;
+  cursor: pointer;
 }
 
 .cart img {
